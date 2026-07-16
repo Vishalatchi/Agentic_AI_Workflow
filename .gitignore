@@ -1,0 +1,17 @@
+# Ignore local environment files containing API keys
+.env
+.env.local
+
+# Ignore Python virtual environments
+venv/
+.venv/
+env/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
