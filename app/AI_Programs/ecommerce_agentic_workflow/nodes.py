@@ -1,5 +1,5 @@
-from app.Claude.ecommerce_agentic_workflow.state import AgentState
-from app.Claude.ecommerce_agentic_workflow.llm import llm_with_tools
+from app.AI_Programs.ecommerce_agentic_workflow.state import AgentState
+from app.AI_Programs.ecommerce_agentic_workflow.llm import llm_with_tools
 from langchain_core.messages import SystemMessage
 from langgraph.types import interrupt
 #defining nodes, steps in flowchart

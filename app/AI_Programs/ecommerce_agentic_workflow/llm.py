@@ -1,6 +1,6 @@
 from langchain_groq import ChatGroq
 from app.config import GROQ_AI_API_KEY
-from app.Claude.ecommerce_agentic_workflow import tools
+from app.AI_Programs.ecommerce_agentic_workflow import tools
 
 #llm model
 llm = ChatGroq(
